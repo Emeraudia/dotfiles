@@ -3,14 +3,17 @@
 autoload -Uz compinit
 compinit
 
-
 # Alias
 source "./.config/zsh/zsh_aliases.sh"
 
+# Colored man command
+source "./.config/zsh/zsh_colored_man.sh"
+
+# Completion
+source "./.config/zsh/zsh_completion.sh"
+
 # History
-histfile=./.config/zsh/.zsh_history
-histsize=1000
-savehist=1000
+source "./.config/zsh/zsh_history.sh"
 
 # Keybindings
 source "./.config/zsh/zsh_keybindings.sh"

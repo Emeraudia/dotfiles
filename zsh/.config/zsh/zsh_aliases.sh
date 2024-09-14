@@ -18,6 +18,9 @@ alias cl="clear"
 # Exit
 alias e="exit"
 
+# Grep
+alias grep="grep --color"
+
 # Ls
 alias la="ls -a"
 alias ls="ls --color"
