@@ -22,6 +22,11 @@ source "./.config/zsh/zsh_keybindings.sh"
 source "./.config/zsh/zsh_prompt.sh"
 
 # Plugins
+
 if [[ -f "/usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh" ]]; then
 	source "/usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
+fi
+
+if [[ -f "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]]; then
+	source "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 fi
