@@ -21,3 +21,6 @@ setopt HIST_IGNORE_DUPS
 # do not display duplicates of a line previously found,
 # even if the duplicates are not contiguous.
 setopt HIST_FIND_NO_DUPS
+
+# When writing out the history file, older commands that duplicates newer ones are omitted.
+set HIST_SAVE_NO_DUPS

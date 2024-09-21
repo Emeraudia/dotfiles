@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
 autoload -Uz compinit
 compinit
 
@@ -17,6 +20,9 @@ source "./.config/zsh/zsh_history.sh"
 
 # Keybindings
 source "./.config/zsh/zsh_keybindings.sh"
+
+# Options
+source "./.config/zsh/zsh_options.sh"
 
 # Prompt
 source "./.config/zsh/zsh_prompt.sh"
