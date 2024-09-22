@@ -1,1 +1,9 @@
+
+# Visual studio code
+code/.config/code/*
+!code/.config/code/User
+code/.config/code/User/*
+!code/.config/code/User/settings.json
+
+# Zsh
 .zsh_history
