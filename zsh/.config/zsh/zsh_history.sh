@@ -2,7 +2,7 @@
 
 # The file to save the history in when an interactive shell exists.
 # If unset, the history is not saved.
-HISTFILE=./.config/zsh/.zsh_history
+HISTFILE="${HOME}/.config/zsh/.zsh_history"
 
 # The maximum number of events stored in the internal history list.
 HISTSIZE=1000
