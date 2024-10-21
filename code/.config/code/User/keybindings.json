@@ -1,0 +1,32 @@
+[
+    {
+        "key": "ctrl+[KeyQ]",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+[KeyW]",
+        "command": "undo"
+    },
+    {
+        "key": "ctrl+[KeyA]",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "ctrl+[KeyZ]",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+shift+[KeyI]",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+shift+[KeyI]",
+        "command": "editor.action.formatDocument.none",
+        "when": "!editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+[Period]",
+        "command": "editor.action.commentLine",
+    },
+]
