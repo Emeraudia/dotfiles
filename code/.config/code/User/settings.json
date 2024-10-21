@@ -1,4 +1,10 @@
 {
+    "cmake.configureOnOpen": false,
+
+    "git.openRepositoryInParentFolders": "never",
+
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'NotoMono Nerd Font'",
+    "editor.inlayHints.enabled": "off",
     "security.workspace.trust.enabled": false,
     "telemetry.telemetryLevel": "off"
 }
