@@ -1,4 +1,4 @@
-# DOTFILES
+# DOTFILES (WIP)
 
 Configuration files, made to be used with [stow](https://www.gnu.org/software/stow/).
 
