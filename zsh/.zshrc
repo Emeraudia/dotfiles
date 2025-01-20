@@ -19,19 +19,16 @@ source "${HOME}/.config/zsh/zsh_completion.sh"
 source "${HOME}/.config/zsh/zsh_history.sh"
 
 # Keybindings
+# https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html
 source "${HOME}/.config/zsh/zsh_keybindings.sh"
 
 # Options
+# https://zsh.sourceforge.io/Doc/Release/Options.html
 source "${HOME}/.config/zsh/zsh_options.sh"
 
 # Prompt
+# https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html
 source "${HOME}/.config/zsh/zsh_prompt.sh"
 
 # Plugins
-if [[ -f "/usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh" ]]; then
-	source "/usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
-fi
-
-if [[ -f "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]]; then
-	source "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-fi
+source "${HOME}/.config/zsh/zsh_plugins.sh"
