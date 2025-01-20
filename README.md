@@ -7,7 +7,7 @@ Configuration files, made to be used with [stow](https://www.gnu.org/software/st
 - General font: Noto Font
 - Nerd font: Noto Nerd Font
 - Japanese font: Noto CJK Font
-- Emoji: Noto Color Emoji Font 
+- Emoji: Noto Color Emoji Font
 
 [File](./fontconfig/.config/fontconfig/fonts.conf)
 
@@ -71,5 +71,7 @@ Files:
 [File](./zsh/.config/zsh/zsh_keybindings.sh)
 
 ### Plugins
+- [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [Zsh Completions](https://github.com/zsh-users/zsh-completions)
 - [Zsh History Substring Search](https://github.com/zsh-users/zsh-history-substring-search)
 - [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
