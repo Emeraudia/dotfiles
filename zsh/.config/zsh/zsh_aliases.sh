@@ -37,6 +37,3 @@ alias gp="git push"
 
 # Nvim
 alias nv="nvim"
-
-# Code
-alias code="code --ozone-platform=wayland --enable-wayland-ime --user-data-dir=.config/code/"
