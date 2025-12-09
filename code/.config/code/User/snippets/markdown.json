@@ -1,0 +1,6 @@
+{
+    "bash": {
+        "prefix": "bash",
+        "body": "```bash\n$0\n```"
+    }
+}

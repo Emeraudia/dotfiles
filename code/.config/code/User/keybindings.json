@@ -26,7 +26,16 @@
         "when": "!editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+[Period]",
+        "key": "ctrl+[Period]",
         "command": "editor.action.commentLine",
     },
+    {
+        "key": "alt+[ArrowLeft]",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+[ArrowRight]",
+        "command": "workbench.action.navigateForward"
+    }
+
 ]
