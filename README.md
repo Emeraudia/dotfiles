@@ -15,6 +15,8 @@ Configuration files, made to be used with [stow](https://www.gnu.org/software/st
 
 ### Options
 
+- Chat agent: Disabled
+- Autoreveal: Disabled
 - Telemetry: Off
 - Trusted workspace: Disabled
 
@@ -27,7 +29,9 @@ Configuration files, made to be used with [stow](https://www.gnu.org/software/st
 - `CTRL` + `A`: Quit
 - `CTRL` + `Z`: Close active editor
 - `CTRL` + `Shift` + `I`: Format document
-- `CTRL` + `Shift` + `.`: Comment selection
+- `CTRL` + `.`: Comment selection
+- `ALT` + `LeftArrow`: Jump to previous location
+- `ALT` + `RightArrow`: Jump to next location
 
 [File](./code/.config/code/User/keybindings.json)
 

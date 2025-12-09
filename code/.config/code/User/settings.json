@@ -1,4 +1,6 @@
 {
+    "chat.agent.enabled": false,
+
     "cmake.configureOnOpen": false,
     "cmake.pinnedCommands": [
         "workbench.action.tasks.configureTaskRunner",
@@ -10,8 +12,20 @@
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'NotoMono Nerd Font'",
     "editor.inlayHints.enabled": "off",
     "editor.minimap.enabled": false,
+
+    "explorer.autoReveal": false,
+
+    "extensions.ignoreRecommendations": true,
+
+    "scm.autoReveal": false,
+    
     "security.workspace.trust.enabled": false,
+    
     "telemetry.telemetryLevel": "off",
     
-    "typescript.validate.enable": true
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    
+    "typescript.validate.enable": true,
+    
+    "workbench.iconTheme": "material-icon-theme"
 }
