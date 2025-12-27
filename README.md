@@ -11,30 +11,6 @@ Configuration files, made to be used with [stow](https://www.gnu.org/software/st
 
 [File](./fontconfig/.config/fontconfig/fonts.conf)
 
-## VSCode / VSCodium / Code OSS
-
-### Options
-
-- Chat agent: Disabled
-- Autoreveal: Disabled
-- Telemetry: Off
-- Trusted workspace: Disabled
-
-[File](./code/.config/code/User/settings.json)
-
-### Keybindings
-
-- `CTRL` + `Q`: Select all
-- `CTRL` + `W`: Undo
-- `CTRL` + `A`: Quit
-- `CTRL` + `Z`: Close active editor
-- `CTRL` + `Shift` + `I`: Format document
-- `CTRL` + `.`: Comment selection
-- `ALT` + `LeftArrow`: Jump to previous location
-- `ALT` + `RightArrow`: Jump to next location
-
-[File](./code/.config/code/User/keybindings.json)
-
 ## [Hyprland](https://hyprland.org/)
 
 ### Keybindings
@@ -59,6 +35,7 @@ Configuration files, made to be used with [stow](https://www.gnu.org/software/st
 
 [File](./hypr/.config/hypr/hyprland/keybindings.conf)
 
+
 ## [Zsh](https://www.zsh.org/)
 
 Files:
@@ -75,7 +52,46 @@ Files:
 [File](./zsh/.config/zsh/zsh_keybindings.sh)
 
 ### Plugins
+
 - [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [Zsh Completions](https://github.com/zsh-users/zsh-completions)
 - [Zsh History Substring Search](https://github.com/zsh-users/zsh-history-substring-search)
 - [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+### Packages
+
+## VSCode / VSCodium / Code OSS
+
+### Options
+
+- Chat agent: Disabled
+- Autoreveal: Disabled
+- Telemetry: Off
+- Trusted workspace: Disabled
+
+[File](./code/.config/code/User/settings.json)
+
+### Keybindings
+
+- `CTRL` + `A`: Select all
+- `CTRL` + `Z`: Undo
+- `CTRL` + `Q`: Quit
+- `CTRL` + `W`: Close active editor
+- `CTRL` + `Shift` + `I`: Format document
+- `CTRL` + `/`: Comment selection
+- `ALT` + `LeftArrow`: Jump to previous location
+- `ALT` + `RightArrow`: Jump to next location
+
+[File](./code/.config/code/User/keybindings.json)
+
+## [Librewolf](https://librewolf.net/)
+
+### Overrides
+
+- Don't save history
+- Restore previous tabs
+- Disable WelGL by default
+- Disable Resist Fingerprints (mainly because of theme)
+- Allow UserChrome.css
+
+[File](librewolf/.librewolf/librewolf.overrides.cfg)
