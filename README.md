@@ -1,6 +1,6 @@
 # DOTFILES (WIP)
 
-Configuration files, made to be used with [stow](https://www.gnu.org/software/stow/).
+Configuration files, made to be used with [stow](https://www.gnu.org/software/stow/) on [Arch Linux](https://archlinux.org/).
 
 ## Fonts
 
@@ -73,10 +73,6 @@ Files:
 
 ### Keybindings
 
-- `CTRL` + `A`: Select all
-- `CTRL` + `Z`: Undo
-- `CTRL` + `Q`: Quit
-- `CTRL` + `W`: Close active editor
 - `CTRL` + `Shift` + `I`: Format document
 - `CTRL` + `/`: Comment selection
 - `ALT` + `LeftArrow`: Jump to previous location
