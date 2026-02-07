@@ -36,6 +36,14 @@
     {
         "key": "alt+[ArrowRight]",
         "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+[BackQuote]",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+[BackQuote]",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
     }
-
 ]
