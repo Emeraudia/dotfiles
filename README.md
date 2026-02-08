@@ -77,6 +77,10 @@ Files:
 - `CTRL` + `/`: Comment selection
 - `ALT` + `LeftArrow`: Jump to previous location
 - `ALT` + `RightArrow`: Jump to next location
+- `CTRL` + `` ` ``: Switch focus between editor and terminal
+- `CTRL` + `N`, `CTRL` + `N`: Create new untitled file
+- `CTRL` + `N`, `CTRL` + `F`: Create new file
+- `CTRL` + `N`, `CTRL` + `D`: Create new folder
 
 [File](./code/.config/code/User/keybindings.json)
 
