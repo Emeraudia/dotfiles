@@ -1,3 +1,6 @@
+# Librewolf
+librewolf/.librewolf
+!librewolf/.librewolf/librewolf.overrides.cfg
 
 # Visual studio code
 code/.config/code/*
