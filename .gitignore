@@ -1,6 +1,7 @@
 # Librewolf
-librewolf/.librewolf
+librewolf/.librewolf/*
 !librewolf/.librewolf/librewolf.overrides.cfg
+!librewolf/.librewolf/userChrome.css
 
 # Visual studio code
 code/.config/code/*
