@@ -45,7 +45,7 @@ Files:
 ### Keybindings
 
 - `UP`: History substring search up
-- `DOWn`: History substring search down
+- `DOWN`: History substring search down
 - `CTRL` + `LEFT`: Backward word
 - `CTRL` + `RIGHT`: Forward word
 
