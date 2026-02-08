@@ -45,5 +45,17 @@
         "key": "ctrl+[BackQuote]",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+N ctrl+F",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+N ctrl+D",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+N ctrl+N",
+        "command": "openEditors.newUntitledFile"
     }
 ]
