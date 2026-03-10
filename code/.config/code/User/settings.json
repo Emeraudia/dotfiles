@@ -1,31 +1,43 @@
 {
+    // Chat
     "chat.disableAIFeatures": true,
-
-    "cmake.configureOnOpen": false,
-    "cmake.pinnedCommands": [
-        "workbench.action.tasks.configureTaskRunner",
-        "workbench.action.tasks.runTask"
-    ],
-
+    "files.insertFinalNewline": true,
+    // Git
     "git.openRepositoryInParentFolders": "never",
-
+    "git.blame.editorDecoration.enabled": true,
+    // Editor
     "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'NotoMono Nerd Font'",
+    "editor.formatOnSave": true,
     "editor.inlayHints.enabled": "off",
     "editor.minimap.enabled": false,
-
+    //Explorer
     "explorer.autoReveal": false,
-
+    // Extensions
     "extensions.ignoreRecommendations": true,
-
-    "scm.autoReveal": false,
-    
-    "security.workspace.trust.enabled": false,
-    
-    "telemetry.telemetryLevel": "off",
-    
+    // QT
+    "qt-qml.qmlls.useQmlImportPathEnvVar": true,
+    "qt-qml.qmlls.enabled": true,
+    "qt-core.additionalQtPaths": [
+        {
+            "name": "Qt-5.15.18-linux-g++",
+            "path": "/bin/qmake"
+        },
+        {
+            "name": "Qt-5.15.18-linux-g++_from_PATH",
+            "path": "/usr/bin/qmake"
+        }
+    ],
+    "qt-qml.qmlls.customExePath": "qmlls6",
+    // Integrated terminal
     "terminal.integrated.defaultProfile.linux": "zsh",
-    
-    "typescript.validate.enable": true,
-    
-    "workbench.iconTheme": "material-icon-theme"
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpen"
+    ],
+    // Others
+    "scm.autoReveal": false,
+    "security.workspace.trust.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "js/ts.validate.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
 }
