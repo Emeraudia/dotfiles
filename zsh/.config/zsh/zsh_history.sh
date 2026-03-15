@@ -32,4 +32,4 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_FIND_NO_DUPS
 
 # When writing out the history file, older commands that duplicates newer ones are omitted.
-set HIST_SAVE_NO_DUPS
+setopt HIST_SAVE_NO_DUPS
